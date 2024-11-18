@@ -1,0 +1,119 @@
+<style>
+    body {
+        font-family: 'Microsoft JhengHei', Arial, sans-serif; /* 添加中文字体支持 */
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+        padding-bottom: 60px; /* 为固定的 footer 留出空间 */
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    h1, h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+    }
+    .info p {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .info strong {
+        min-width: 100px;
+        color: #2c3e50;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    ul li {
+        position: relative;
+        padding: 5px 0;
+    }
+    ul li:before {
+        content: "•";
+        color: #2c3e50;
+        position: absolute;
+        left: -15px;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #2c3e50;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+    @media (max-width: 600px) {
+        .container {
+            margin: 20px;
+            padding: 15px;
+        }
+        .info p {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .info strong {
+            margin-bottom: 5px;
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="section">
+        <h2>基本資訊</h2>
+        <div class="info">
+            <p><strong>姓名：</strong>葉靜宜</p>
+            <p><strong>生日：</strong>2006/06/19</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>學歷</h2>
+        <p>我目前是世新大學廣播電視電影學系（電影組）的學生，對於影像製作與後製充滿熱情。</p>
+        <ul>
+            <li><strong>2021-至今：</strong>世新大學 - 廣播電視電影學系（電影組）</li>
+            <li><strong>2021-2024：</strong>曙光女中</li>
+            <li><strong>2019-2021：</strong>二重國中</li>
+            <li><strong>2014-2019：</strong>二重國小</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>工作經歷</h2>
+        <p>我曾在緯創公司擔任暑期實習生，主要負責：</p>
+        <ul>
+            <li>參與專案規劃與執行</li>
+            <li>協助團隊文件整理與管理</li>
+            <li>學習企業營運流程</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>專業技能</h2>
+        <ul>
+            <li>影片剪輯：Premiere Pro, Final Cut Pro</li>
+            <li>影像後製：After Effects</li>
+            <li>攝影技術：熟悉各種相機操作及構圖技巧</li>
+            <li>基礎網頁設計：HTML, CSS</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>作品集</h2>
+        <p>您可以通過以下連結查看我的作品：</p>
+        <ul>
+            <li><a href="#">個人影像作品集</a></li>
+            <li><a href="#">攝影作品集</a></li>
+        </ul>
+    </div>
+</div> 
